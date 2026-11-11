@@ -1,3 +1,11 @@
+# Інструкції проєкту
+
+- Стек: Next.js 16 App Router, React 19, TypeScript, Tailwind CSS 4; Node.js 24.
+- Маршрути й спільний layout розміщуй в `app/`, повторно використовувані UI-компоненти — в `components/`. Сторінки та layout залишай Server Components; `"use client"` додавай лише для інтерактивності чи browser API.
+- Стилі пиши утилітами Tailwind; глобальні стилі — в `app/globals.css`.
+- Тести розміщуй у `tests/`: Vitest + Testing Library. Запуск: `npm test`; перевірки: `npm run lint`, `npm run build`.
+- Не редагуй згенеровані `.next/` і `next-env.d.ts`; секрети не додавай у репозиторій.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 # This is NOT the Next.js you know
